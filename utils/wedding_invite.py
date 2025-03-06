@@ -5,7 +5,7 @@ import re
 
 pattern = r"^(\d{2})\.(\d{2})\.(\d{4})$"
 
-API_URL = " http://127.0.0.1:8000//invite/create/"
+API_URL = " https://botlar.navetk.uz//invite/create/"
 PROVIDER_KEY = "hubbun-nikah"
 
 

@@ -15,6 +15,6 @@ def check_button(channels):
             channels_check.row(InlineKeyboardButton(text=f"{channel[1]}", url=f"{channel[0]}"))
         else:
             channels_check.row(InlineKeyboardButton(text=f"✅{channel[1]}", url=f"{channel[0]}"))
-    channels_check.row(InlineKeyboardButton(text="Obunani tekshirish ✅",url="https://t.me/Nikohuzbot?start=help"))
+    channels_check.row(InlineKeyboardButton(text="Obunani tekshirish ✅",url="https://t.me/Nikohuz_bot?start=help"))
         
     return channels_check.as_markup()
